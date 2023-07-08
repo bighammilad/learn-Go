@@ -20,7 +20,7 @@ Open a terminal.
 Open your shell profile file. For macOS, it's typically ~/.bash_profile, ~/.bashrc, or ~/.zshrc. For Linux, it's usually ~/.bashrc or ~/.bash_profile.
 Add the following lines to the file, replacing /usr/local/go with the path where Go is installed:
 
-```
+```bash
 export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 ```
@@ -30,7 +30,7 @@ Run source <profile_file> to apply the changes to your current session. For exam
 4. Verify the installation:
 Open a new terminal or command prompt window and run the following command:
 
-```
+```bash
 go version
 ```
 If the installation was successful, it should display the installed Go version.
@@ -40,7 +40,7 @@ Go uses a workspace directory to organize your Go projects and packages. Create 
 
 6. Test your Go installation:
 Create a new file named hello.go and open it in a text editor. Add the following code:
-```
+```Go
 package main
 
 import "fmt"
@@ -51,7 +51,7 @@ func main() {
 
 ```
 Save the file and navigate to the directory containing hello.go in your terminal or command prompt. Run the following command:
-```
+```Go
 go run hello.go
 ```
 If everything is set up correctly, it should output "Hello, Go!".
