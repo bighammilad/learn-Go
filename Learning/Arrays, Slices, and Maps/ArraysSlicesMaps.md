@@ -44,8 +44,8 @@ In Go, arrays, slices, and maps are used to store and manipulate collections of 
         var studentGrades map[string]int  // Declare a map with string keys and int values
     ```
 
-    - Maps are created using the ```Go make() ``` function.
-    - You can add or update key-value pairs in a map using the syntax ```Go map[key] = value```. For example:
+    - Maps are created using the ``` make() ``` function.
+    - You can add or update key-value pairs in a map using the syntax ``` map[key] = value```. For example:
     ```Go
        studentGrades["Alice"] = 90  // Assign value 90 to key "Alice"
     ```

@@ -41,18 +41,18 @@ Go uses a workspace directory to organize your Go projects and packages. Create 
 6. Test your Go installation:
 Create a new file named hello.go and open it in a text editor. Add the following code:
 ```Go
-package main
+    package main
 
-import "fmt"
+    import "fmt"
 
-func main() {
-    fmt.Println("Hello, Go!")
-}
+    func main() {
+        fmt.Println("Hello, Go!")
+    }
 
 ```
 Save the file and navigate to the directory containing hello.go in your terminal or command prompt. Run the following command:
 ```Go
-go run hello.go
+    go run hello.go
 ```
 If everything is set up correctly, it should output "Hello, Go!".
 
